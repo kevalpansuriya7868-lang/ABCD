@@ -4,8 +4,9 @@
 -- Technology: MySQL / MariaDB (Compatible with XAMPP phpMyAdmin)
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS `event_management_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `event_management_db`;
+-- Optional: Uncomment the following two lines if creating the database locally:
+-- CREATE DATABASE IF NOT EXISTS `event_management_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE `event_management_db`;
 
 -- Disable foreign key checks for clean drop and recreation
 SET FOREIGN_KEY_CHECKS = 0;
